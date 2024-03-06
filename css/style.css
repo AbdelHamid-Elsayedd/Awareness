@@ -183,6 +183,7 @@ a {
 .landing {
     background-color: var(--section-background);
     height: calc(100vh - 63.39px);
+    position: relative;
 }
 .landing .container {
     gap: 50px;
