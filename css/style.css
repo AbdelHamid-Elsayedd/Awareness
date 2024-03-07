@@ -27,6 +27,19 @@
     display: block;
     margin: 0 auto;
     margin-bottom: 60px;
+    position: relative;
+}
+.special-heading::before {
+    content: "";
+    position: absolute;
+    width: 12px;
+    height: 12px;
+    background-color: white;
+    border-radius: 50%;
+    border: 2px solid black;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 49px;
 }
 @media (max-width: 767px) {
     .special-heading {
