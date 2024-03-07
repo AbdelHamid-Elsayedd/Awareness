@@ -264,6 +264,7 @@ a {
     position: relative;
     padding-top: var(--section-padding);
     padding-bottom: var(--section-padding);
+    z-index: 1;
 }
 .dots-up-left,
 .dots-up-right,
