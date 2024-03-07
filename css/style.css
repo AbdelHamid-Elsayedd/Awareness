@@ -45,6 +45,9 @@
     .special-heading {
         font-size: 25px;
     }
+    .special-heading::before {
+        display: none;
+    }
 }
 .spikes {
     position: relative;
